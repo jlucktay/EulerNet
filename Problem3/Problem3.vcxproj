@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AD49E6FE-70FC-4C03-A536-7041851BA262}</ProjectGuid>
+    <ProjectGuid>{10E94497-9CC2-4AFA-94FD-32BD7B63CC12}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Problem1</RootNamespace>
-    <ProjectName>Problem1</ProjectName>
+    <RootNamespace>Problem3</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -84,7 +83,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Problem1.cpp" />
+    <ClCompile Include="Problem3.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
